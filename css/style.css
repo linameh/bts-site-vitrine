@@ -131,3 +131,27 @@ footer {
         width: 100%;
     }
 }
+
+
+.btn-contact {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e74c3c; 
+    color: white !important; 
+    border-radius: 50px;
+    margin-top: 20px;
+    transition: background 0.3s, transform 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn-contact:hover {
+    background-color: #c0392b;
+    transform: scale(1.1);
+    text-decoration: none;
+}
+
+.services-list li h3 {
+    color: #2c3e50;
+    margin: 10px 0;
+}
